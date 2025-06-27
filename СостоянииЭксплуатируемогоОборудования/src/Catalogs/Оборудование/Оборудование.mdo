@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d07929e-23ea-4e2e-a711-246702740f88">
+  <producedTypes>
+    <objectType typeId="77a1de0f-3206-4bef-beaa-7aae6d926b4e" valueTypeId="cf52f8af-391a-4a8f-a70c-72d344b05b47"/>
+    <refType typeId="07ffd590-f480-4f39-9c0e-5d31bb2ab605" valueTypeId="df9867c1-c4b8-44fc-9470-d3d8745d5749"/>
+    <selectionType typeId="c1a66673-6cd9-4e04-8220-01ce7a5741b3" valueTypeId="35e1fe52-6f84-41e0-8c00-8a6eee46ba55"/>
+    <listType typeId="83acc635-f44b-4613-b7a4-fead842e7748" valueTypeId="7743efcc-432d-4959-bb21-93f601f40303"/>
+    <managerType typeId="c612ee2d-9c29-4a11-9c18-cdb6c25b8816" valueTypeId="ad791d18-7fed-4a9f-92ae-001d4be7a07d"/>
+  </producedTypes>
+  <name>Оборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Оборудование.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Оборудование.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7bf8a322-6400-45e8-a279-54aabcb81527">
+    <name>СрокЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок эксплуатации (Месяц)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

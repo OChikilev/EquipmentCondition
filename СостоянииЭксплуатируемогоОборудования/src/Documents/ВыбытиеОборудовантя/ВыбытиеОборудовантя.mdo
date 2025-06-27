@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15a5c9c0-f12b-4f21-bb8b-ff2b89ba07e1">
+  <producedTypes>
+    <objectType typeId="8871d4bd-f32b-48f0-ad1d-4472846053a3" valueTypeId="34b6cacd-9dc8-425a-91d7-7030ecdaae79"/>
+    <refType typeId="596bb252-679c-4b31-8c63-713547bfcb29" valueTypeId="805cba97-985d-43e1-a4ea-33a2dc2bdc37"/>
+    <selectionType typeId="0011cacb-fcd0-425a-a2da-29c490e0c57b" valueTypeId="2c796b9b-4d0f-4d30-99a6-2a9038f13885"/>
+    <listType typeId="b33fe7c2-9172-473f-9df9-68165e5f6c8a" valueTypeId="3cbc10d2-1118-45f0-a1e4-46560bfb5847"/>
+    <managerType typeId="774c884f-c817-4c94-97bb-791bb4300d32" valueTypeId="157e899e-1d61-415f-8447-7bad1b7cff6a"/>
+  </producedTypes>
+  <name>ВыбытиеОборудовантя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбытие оборудовантя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыбытиеОборудовантя.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Выбытие оборудовантя</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8333a5ee-68e1-4a04-9ff2-e901ea9c4287">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -35,4 +35,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <catalogs>Catalog.Оборудование</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ВводВЭксплуатацию</documents>
+  <documents>Document.ВыбытиеОборудовантя</documents>
 </mdclass:Configuration>
