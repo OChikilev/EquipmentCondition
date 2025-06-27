@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="239df4f5-dc46-49ea-b505-3d375148bcf7">
+  <producedTypes>
+    <selectionType typeId="23675411-4078-4536-ad38-b2c7eda3b67a" valueTypeId="340fa44e-7f1d-4ae1-905e-d1be4c818a39"/>
+    <listType typeId="73a27844-59e3-4379-b4c8-1fe13d49288c" valueTypeId="05c6b856-bbc8-4dcb-b43f-b5f5874fcb57"/>
+    <managerType typeId="17ce4d2d-a1c6-48d2-a547-678a1a334780" valueTypeId="60e1b86c-8596-4b2e-b4de-51892d3f2a59"/>
+    <recordSetType typeId="50a2df79-0d3f-4c82-9c54-c33bc74a6833" valueTypeId="246ba8f0-597e-482f-a3af-87147b732347"/>
+    <recordKeyType typeId="081a3766-7b3d-4c73-a824-11b1b8d55740" valueTypeId="998b3024-c51d-4d76-b804-7d29e064b6ee"/>
+    <recordType typeId="1f1f2050-c8d3-4a33-81bc-a875dad5e596" valueTypeId="940f88ac-c4be-46fb-8079-f1b5094378a3"/>
+  </producedTypes>
+  <name>ОборудованиеОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="edf926ed-a314-4dc0-ac4d-787098e7a94e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f91dba81-40ce-4f70-8518-aaf7e36edc68">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c5968288-88e2-4e98-8421-2d70fdcc0198">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Оборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="af375416-31e4-4540-9364-f783e5e248db">
+    <name>СостояниеОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние оборудования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостояниеОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="89ed78bc-4309-47ca-9a40-44162a5bb482">
+    <name>ГоденДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годен до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="52ca78c3-d148-429d-86bf-2b58b9b307f9">
+    <name>ЭксплуатироватьДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эксплуатировать до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

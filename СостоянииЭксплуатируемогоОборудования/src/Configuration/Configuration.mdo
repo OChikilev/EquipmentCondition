@@ -40,4 +40,6 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ВводВЭксплуатацию</documents>
   <documents>Document.ВыбытиеОборудовантя</documents>
+  <enums>Enum.СостояниеОборудования</enums>
+  <accumulationRegisters>AccumulationRegister.ОборудованиеОрганизации</accumulationRegisters>
 </mdclass:Configuration>
