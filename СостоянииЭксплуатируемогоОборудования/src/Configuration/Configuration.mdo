@@ -36,10 +36,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <commonModules>CommonModule.ВыбытияОборудованияСервер</commonModules>
+  <scheduledJobs>ScheduledJob.ФормированиеВыбытияОборудования</scheduledJobs>
   <catalogs>Catalog.Оборудование</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ВводВЭксплуатацию</documents>
   <documents>Document.ВыбытиеОборудовантя</documents>
   <enums>Enum.СостояниеОборудования</enums>
+  <reports>Report.СостояниеОборудованияВЭксплуатации</reports>
   <accumulationRegisters>AccumulationRegister.ОборудованиеОрганизации</accumulationRegisters>
 </mdclass:Configuration>

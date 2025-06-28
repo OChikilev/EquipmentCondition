@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab381d79-e6bf-4c53-ac3a-5c822258414f">
+  <producedTypes>
+    <objectType typeId="6cd4bc29-0cf6-4480-ac61-21456318bff5" valueTypeId="abaa381f-e79b-47f6-be42-b8d374c57535"/>
+    <managerType typeId="3b76342f-246a-46a3-a85f-dab2ff47b719" valueTypeId="2d132bc5-99a8-4766-af32-039486eeb783"/>
+  </producedTypes>
+  <name>СостояниеОборудованияВЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние оборудования в эксплуатации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СостояниеОборудованияВЭксплуатации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="28d5c3d8-f095-4b8d-9ddc-72a534ea82a4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
